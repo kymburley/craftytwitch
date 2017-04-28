@@ -1,0 +1,129 @@
+/*
+  =====================================================================
+  Custom Styles
+  =====================================================================
+*/
+
+html,
+body {
+	margin: 0;
+	height: 100vh;
+}
+body {
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+	max-width: 760px;
+}
+
+/*
+  =====================================================================
+  Rows
+  =====================================================================
+*/
+
+.online {
+	background-color: #accfcc;
+}
+.offline {
+	background: #b8ae9c;
+}
+.notFound {
+	background: #8a0917;
+	color: #fff;
+}
+.row {
+	height: 60px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/*
+  =====================================================================
+  Typography
+  =====================================================================
+*/
+
+.primary-header {
+	color: #fff;
+	font-family: 'Sarpanch', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+/*
+  =====================================================================
+  Links
+  =====================================================================
+*/
+
+a {
+	color: #595241;
+	letter-spacing: .5px;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color: #8a0917;
+}
+
+
+/*
+  =====================================================================
+  Primary Header
+  =====================================================================
+*/
+
+.primary-header {
+	background: #595241;
+	padding: 15px 0;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+/*
+  =====================================================================
+  Main
+  =====================================================================
+*/
+
+img {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 3px solid #595241;
+}
+#channel,
+#description {
+	padding-top: 20px;
+}
+#channel {
+	text-align: center;
+}
+#description {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-right: 50px;
+}
+
+
+/*
+  =====================================================================
+  Primary Footer
+  =====================================================================
+*/
+
+.primary-footer {
+	background: #595241;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+small {
+	float: left;
+}
