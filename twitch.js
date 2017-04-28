@@ -29,7 +29,7 @@ $(document).ready(function() {
 							status = "online";
 						}
 						html = '<div class="row ' + status + '"><div class="col-xs-2 col-sm-1"><img src="' +
-								logo + 'id="logo"></div><div class="col-xs-4 col-sm-3" id="channel"><a href="' +
+								logo + '"id="logo"></div><div class="col-xs-4 col-sm-3" id="channel"><a href="' +
 								channelUrl + '" target="_blank">' +
 								name + '</a></div><div class="col-xs-6 col-sm-8 hidden-xs" id="description">' +
 								description + '</div></div>';
